@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TASTE OF INDIA</title>
+<script>
+function change()
+{
+var ri =[ ];  
+ri[0] = "https://www.youngisthan.in/wp-content/uploads/2021/03/5cbc5ded512c0c3e8b6c782d_1555848685957-scaled.jpg";  
+ri[1] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSspd7pfXRErjrHd8t-1zhbPoSBZRTjZ1T_Kg&usqp=CAU";  
+ri[2] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ80wO4Csh0xwJ5oGdamd8gs5yP_yRwjf9sSg&usqp=CAU";  
+ri[3] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzLz5TUOeA08f7h36bLbL1gC6pXQ5uTfl0QQ&usqp=CAU";  
+ri[4] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx0hX-qswrn0vA1ZGogh05cd6dbRiJqbG-ww&usqp=CAU";  
+ri[5] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQqNvS3f5116llSwN1cVwChkZD7_Xo_VvUvQ&usqp=CAU";    
+var num = Math.floor(Math.random()*ri.length);  
+return document.getElementById("a").src = ri[num];  
+
+}
+</script>
+<style>
+      body{background-image:url("https://th.bing.com/th/id/OIP.Mvh0nhSZqsXb2xAvxrOX4QAAAA?pid=ImgDet&w=360&h=240&rs=1");
+background-size:cover;
+background-repeat:no-repeat}
+a{color:yellow}
+
+</style>
+</head>	
+
+<body>
+	
+<h1 style="font-weight:Bold;Font-Size:50px;color:red;text-align:center">TASTE OF INDIA</h1>
+<img src="https://www.youngisthan.in/wp-content/uploads/2021/03/5cbc5ded512c0c3e8b6c782d_1555848685957-scaled.jpg" id="a" align="right" width="500" height="500"alt="food" onmouseover="change()">
+		
+<ul style="color:green" id="key">
+<li><a href="#" color:maroon>Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<section id="banner">
+<h2 style="font-size:40px;color:rgb(90,130,240)">Welcome to My Restaurant</h2>
+<p style="font-size:30px;color:rgb(50,230,60)">Experience the best dining in town</p>
+</section>
+<section id="menu">
+<h2 style="font-size:40px;color:rgb(50,190,170)">Our Menu</h2>
+ <a href="menu.html"><img src="https://static9.depositphotos.com/1077687/1147/v/950/depositphotos_11475676-stock-illustration-elegant-card-for-restaurant-menu.jpg"alt="our menu" width="500" height="500"> </a>
+			
+</section>
+<section id="about">
+<h2 style="color:yellow">About Us</h2>
+<p style="font-size:30px;color:skyblue">We are a family-owned restaurant serving delicious Indian food for over 20 years.<br> Our chefs use only the freshest ingredients to create authentic dishes that will delight your taste buds.<br>we have many special dishes like<b> bamboo chiken briryani</b>,<b>chicken lolloipop</b>,<b>apricotdelight</b><br> </p>
+</section>
+<h2 style="color:orange"><u>ADDRESS</u></h2>
+
+<h3 style="color:white">kukatpally,hyderabad opposite to amb mall</h3>
+<h2 style="color:rgb(150,100,100)">For online delivery contact to:</h2>
+<h3 style="color:pink">9346219065</h3>
+
+
+
+
+<section id="contact">
+<h2 style="color:maroon">Contact Us</h2>
+<form>
+<label for="name" style="color:rgb(60,240,100)">Name</label>
+<input type="text" id="name" name="name" value="Harshithadondeti">
+<label for="email" style="color:rgb(60,240,100)">Email</label>
+<input type="email" id="email" name="email" value="harshithadondeti@gmail.com">
+</form>
